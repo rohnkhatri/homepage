@@ -1,0 +1,115 @@
+:root {
+    --primary-color: #2b2b2b; /* Deep dark gray */
+    --secondary-color: #444444; /* Medium dark gray */
+    --accent-color: #66d9ef; /* Bright blue-green */
+    --background-color: #1a1a1a; /* Very dark gray */
+    --text-color: #ffffff; /* White */
+    --font-family: 'Source Code Pro', monospace;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #clock {
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--accent-color);
+    margin-bottom: 10px;
+  }
+  
+  #search {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  #search-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    color: var(--text-color);
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .weather-container {
+    background-color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: var(--text-color);
+  }
+  
+  .inline {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  #bookmark-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .bookmark-set {
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    width: calc(33.33% - 20px);
+  }
+  
+  .bookmark-inner-container {
+    overflow-y: auto;
+    max-height: 200px;
+    padding-right: 10px;
+  }
+  
+  .bookmark-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--accent-color);
+    margin-bottom: 10px;
+  }
+  
+  .bookmark {
+    text-decoration: none;
+    color: var(--text-color);
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .bookmark:hover {
+    color: var(--accent-color);
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: var(--primary-color);
+  }
