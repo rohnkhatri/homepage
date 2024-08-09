@@ -1,10 +1,12 @@
 :root {
     --primary-color: #2b2b2b; /* Deep dark gray */
     --secondary-color: #444444; /* Medium dark gray */
-    --accent-color: #66d9ef; /* Bright blue-green */
+    /* --accent-color: #66d9ef; /* Bright blue-green */
     --background-color: #1a1a1a; /* Very dark gray */
     --text-color: #ffffff; /* White */
     --font-family: 'Source Code Pro', monospace;
+   --accent-color: #ff79c6; /*Subtle pink */
+
   }
   
   body {

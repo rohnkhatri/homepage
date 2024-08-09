@@ -7,13 +7,14 @@ const bookmarks = [
       { name: "GitHub", url: "https://github.com" },
       { name: "ChatGTP", url: "https://chatgpt.com/" },
       { name: "HuggingChat", url: "https://huggingface.co/chat/"},
+      { name: "MyCompiler", url: "https://www.mycompiler.io/"},
     ],
   },
   {
     title: "Media",
     links: [
-      { name: "Youtube", url: "https://youtube.com" },
-      { name: "PirateBay", url: "https://piratebayproxy.net/" },
+      { name: "YouTube", url: "https://youtube.com" },
+      { name: "Pirate Bay", url: "https://piratebayproxy.net/" },
       // { name: "Instagram", url: "https://instagram.com" },
     ],
   },
