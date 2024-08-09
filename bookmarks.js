@@ -31,10 +31,9 @@ const bookmarks = [
     title: "Miscellaneous",
     links: [
       { name: "GFG", url: "https://www.geeksforgeeks.org/explore?page=1&sortBy=submissions" },
-      { name: "/r/me_irl", url: "https://reddit.com/r/me_irl" },
+      { name: "LPU UMS", url: "https://ums.lpu.in/lpuums/StudentDashboard.aspx"},
       {
-        name: "/r/battlestations",
-        url: "https://reddit.com/r/battlestations",
+        name: "LPU Live",url: "https://lpulive.lpu.in/",
       },
       { name: "/r/unixporn", url: "https://reddit.com/r/unixporn" },
       { name: "/r/news", url: "https://reddit.com/r/news" },

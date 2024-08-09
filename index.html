@@ -40,6 +40,7 @@
         if (e.keyCode == 13) {
           var val = document.getElementById("search-field").value;
           window.open(searchUrl + val);
+          document.getElementById("search-field").value ='';
         }
       }
       // Get current time and format
