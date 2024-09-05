@@ -22,7 +22,7 @@ const bookmarks = [
     title: "Social",
     links: [
       { name: "Twitter", url: "https://twitter.com" },
-      { name: "Facebook", url: "https://facebook.com" },
+      { name: "WhatsApp", url: "https://web.whatsapp.com/" },
       { name: "Instagram", url: "https://instagram.com" },
       { name: "Reddit", url: "https://reddit.com" },
     ],
