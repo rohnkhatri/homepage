@@ -12,7 +12,11 @@
   <body>
     
     <div class="container">
-      <div id="clock"></div>
+      <div class="time">
+        <div id="clock"></div>
+        <div id="day"></div>
+      </div>
+      
       <div id="search">
         <input
           id="search-field"
@@ -63,6 +67,20 @@
           (sec < 10 ? "0" + sec : sec)
         );
       }
+      function getDayAndDate() {
+  let date = new Date(),
+    day = date.getDay(),
+    dayOfMonth = date.getDate(),
+    month = date.getMonth()
+
+  const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  const months = [
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"
+  ];
+
+  return daysOfWeek[day] + " " + months[month] + " " + (dayOfMonth < 10 ? "0" + dayOfMonth : dayOfMonth);
+}
       // Handle Weather request
       function getWeather() {
         let xhr = new XMLHttpRequest();
@@ -112,6 +130,7 @@
         getWeather();
         // Set up the clock
         document.getElementById("clock").innerHTML = getTime();
+        document.getElementById("day").innerHTML = getDayAndDate();
         // Set clock interval to tick clock
         setInterval(() => {
           document.getElementById("clock").innerHTML = getTime();
