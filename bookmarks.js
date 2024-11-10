@@ -15,7 +15,7 @@ const bookmarks = [
     links: [
       { name: "YouTube", url: "https://youtube.com" },
       { name: "Pirate Bay", url: "https://piratebayproxy.net/" },
-      // { name: "Instagram", url: "https://instagram.com" },
+      { name: "YouTube Music", url: "https://music.youtube.com/" },
     ],
   },
   {
