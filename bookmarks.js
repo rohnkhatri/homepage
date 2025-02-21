@@ -19,9 +19,7 @@ const bookmarks = [
       { name: "Le Chat", url: "https://chat.mistral.ai/chat" },
     ],
   },
-  {
-
-  {
+{
     title: "Social",
     links: [
       { name: "LinkedIn", url: "https://www.linkedin.com/" },
